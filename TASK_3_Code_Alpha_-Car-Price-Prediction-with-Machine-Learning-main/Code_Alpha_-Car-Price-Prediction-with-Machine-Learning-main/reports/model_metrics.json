@@ -1,0 +1,37 @@
+{
+  "dataset_path": "C:\\Users\\Asus\\Downloads\\TASK 3\\data\\car data.csv",
+  "target": "Selling_Price",
+  "best_model": "ExtraTrees",
+  "rows": 301,
+  "columns": [
+    "Car_Name",
+    "Year",
+    "Selling_Price",
+    "Present_Price",
+    "Driven_kms",
+    "Fuel_Type",
+    "Selling_type",
+    "Transmission",
+    "Owner"
+  ],
+  "engineered_features": [
+    "Brand",
+    "Vehicle_Category",
+    "Brand_Goodwill",
+    "Vehicle_Age",
+    "Log_Driven_kms",
+    "Km_Per_Year",
+    "Price_Age_Ratio",
+    "Owner_Group"
+  ],
+  "holdout_metrics": {
+    "rmse": 0.7526925279254587,
+    "mae": 0.46446630236794295,
+    "r2": 0.9754056146873203,
+    "mape_percent": 12.995043767235803,
+    "best_model": "ExtraTrees",
+    "train_rows": 240,
+    "test_rows": 61,
+    "dataset_rows": 301
+  }
+}
