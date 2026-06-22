@@ -1,0 +1,6 @@
+- Top drivers of sales in the winning model: num__TV_x_Radio, num__total_ad_spend, num__TV, num__Radio_share, num__Newspaper.
+- The best model is Gradient Boosting with test R² of 0.988, RMSE of 0.625, and MAE of 0.471.
+- Radio spend appears highly influential, so campaign optimization should not focus only on TV budget.
+- TV remains a major volume driver, especially when combined with complementary channels.
+- Budget mix matters, not only total spend. Rebalancing channel share can improve outcomes.
+- Channel interaction effects are present, suggesting multi-channel campaigns outperform isolated spending.
